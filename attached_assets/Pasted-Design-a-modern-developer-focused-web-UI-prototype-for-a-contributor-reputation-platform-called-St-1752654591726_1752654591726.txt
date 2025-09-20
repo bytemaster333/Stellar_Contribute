@@ -1,0 +1,35 @@
+Design a modern, developer-focused web UI prototype for a contributor reputation platform called "StellaRank", built for the Stellar blockchain community. The dashboard should display mock data to simulate activity and contributions.
+
+The UI should include the following key sections as tabs or cards:
+
+1. **Home Dashboard (Overview):**
+   - Total contributors
+   - Average contribution score
+   - Top badges issued
+   - Recent activity feed (mock usernames, actions like “posted on forum”, “committed code”, “invoked contract”)
+   - Simple charts for weekly contribution trends (line chart) and badge distribution (donut/pie chart)
+
+2. **Contributor Leaderboard:**
+   - A sortable table of contributor usernames, wallet address, total score, GitHub activity score, forum score, on-chain activity score
+   - Include badge icons next to names (like “Soroban Expert”, “Top Forum Helper”)
+
+3. **Contributor Profile Page (when clicked):**
+   - Username, wallet, bio (optional)
+   - Contribution timeline (calendar heatmap or activity list)
+   - Badges earned (with labels)
+   - AI-generated “Contribution Summary” (mock output like: “Focused on Soroban contracts and helping in the Turkish community forum.”)
+
+4. **Badge Explorer:**
+   - Grid of all possible badges with descriptions
+   - Example: “Forum Helper” – Earned by 10+ meaningful forum replies
+   - Indicate which users earned each badge (mock counts)
+
+5. **Map View (Geographic Contributions):**
+   - World map highlighting countries with highest contribution counts
+   - Optional toggle: “heatmap” vs “flag pin markers”
+
+6. **Mentor Directory:**
+   - List of top contributors who opted in as mentors
+   - Cards showing their area of expertise and a “Connect” button (mockup only)
+
+Use a clean, dark theme with developer-style aesthetics (like GitHub or Dune). Use Stellar-themed visual elements like the XLM symbol or Soroban color palette. Prioritize clarity and a modular layout. No need for real backend — use mock contributor names, wallet addresses, and scores.
